@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <title>编辑上传菜谱-美食天下</title> 
+  <meta name="keywords" content="" /> 
+  <meta name="description" content="" /> 
+ </head>
+ <body>
+  <include file="public/member_top" />  
+  <include file="public/header" /> 
+  <include file="public/member_header" /> 
+  <!-- 主框架 --> 
+  <div class="wrap"> 
+   <div class="w clear mod"> 
+    <div class="mod_left"> 
+     <!-- 
+	个人中心首页左侧菜单;
+	给当前分类的a标签上添加 class="on";
+ --> 
+     <div class="menu_wrap"> 
+      <ul> 
+       <li> <h2>美食天下</h2> </li> 
+       <li> <a class="on" href="http://member.meishichina.com/mycenter/my_recipe_me/">菜谱</a> </li> 
+       <li> <a href="http://member.meishichina.com/mycenter/my_blog_list/">日志</a> </li> 
+       <li><a href="http://member.meishichina.com/mycenter/my_pai_list/">话题</a></li> 
+       <li><a href="http://member.meishichina.com/mycenter/my_collect_me/">菜单</a></li> 
+       <li> <h2>珍选</h2> </li> 
+       <!--<li><a  href="http://member.meishichina.com/mycenter/my_quan/">优惠券</a></li> --> 
+       <!--<li><a  href="http://member.meishichina.com/mycenter/my_quan/shai/1/9855766/">优惠券</a></li>--> 
+       <li><a href="http://member.meishichina.com/mycenter/my_try/">免费试用</a></li> 
+       <li><a href="http://member.meishichina.com/mycenter/my_lottery/">免费抽奖</a></li> 
+       <!--		<li>
+			<h2>先食鲜</h2>
+		</li>
+		<li><a href="http://member.meishichina.com/mycenter/my_wish_me/">心愿单</a></li>--> 
+       <!-- <li><a href="#">美食天下行</a></li> --> 
+      </ul> 
+     </div> 
+     <!-- 左侧分类导航结束 --> 
+    </div> 
+    <!-- 右侧 --> 
+    <div class="mod_right"> 
+     <div class="mod_location">
+       当前位置：
+      <a href="http://member.meishichina.com/mycenter/recipe-editnew-id-297131/#">会员中心</a> &gt; 
+      <a href="http://member.meishichina.com/mycenter/recipe-editnew-id-297131/#">菜谱管理</a> &gt; 
+      <span>编辑菜谱</span> 
+     </div> 
+     <div class="ui_title mt20"> 
+      <div class="ui_title_wrap"> 
+       <a href="http://member.meishichina.com/mycenter/my_recipe_me/" class="on">编辑菜谱</a> 
+      </div> 
+      <div class="ui_title_right"> 
+       <a style="position:absolute;top:10px;right:0px;font-size:13px;color:#666" target="_blank" href="http://home.meishichina.com/space-13-do-blog-id-588885.html">如何打造一篇精华菜谱</a> 
+      </div> 
+     </div> 
+     <!-- 内容开始 --> 
+     <div class="content"> 
+      <input type="hidden" id="recipeinfo_id" value="297131" /> 
+	<form  action="" method="post" enctype="multipart/form-data">
+      <dl class="cp_name"> 
+       <dt> 
+        <span class="x">*</span> 
+        <span class="lable">菜品名称：</span> 
+       </dt> 
+       <dd>
+        <input type="text" class="btn37 J_Title color_5b" name="recipe_title" value="{$reciperow['recipe_title']}" />
+       </dd> 
+      </dl>     
+
+      <dl class="cp_name"> 
+       <dt> 
+        <span class="x">*</span> 
+        <span class="lable">菜品分类：</span> 
+       </dt> 
+       <dd>
+        <select  style="width: 150px;height: 22px;border: 1px solid #ccc;"  name="cid">
+            <foreach name="cat" item = "c">
+              <if condition="$c['cid'] eq $reciperow['cid']">
+              <option value ="{$c['cid']}" selected="selected">{$c['c_name']}</option>
+              <else />
+              <option value ="{$c['cid']}">{$c['c_name']}</option>
+              </if>
+            </foreach>
+        </select>
+       </dd> 
+      </dl> 
+
+      <dl class="uploadImage2"> 
+       <dt> 
+        <span class="x">*</span> 
+        <span class="lable">成品图片：</span> 
+       </dt> 
+       <dd> 
+        <div class="J_uploadflash J_swf" style="position: relative; left: 0px;">
+         <input type="file" name="recipe_img"/>
+        </div> 
+        <div id="cover" class="clear"> 
+        </div> 
+        <input type="hidden" id="upai_bucket" value="" /> 
+        <input type="hidden" id="upai_policy" value="" /> 
+        <input type="hidden" id="upai_signature" value="" /> 
+        <div class="left edit_message"> 
+          
+        </div> 
+       </dd> 
+      </dl> 
+      <dl class="cp_name"> 
+       <dt> 
+        <span class="x">*</span> 
+        <span class="lable">菜品描述：</span> 
+       </dt> 
+       <dd>
+        <textarea class="textArea J_input" name="recipe_content" style="width: 498px;height: 116px; padding: 20px 20px 20px 35px;"></textarea>
+       </dd> 
+      </dl> 
+      <dl class="ingredient"> 
+       <dt> 
+        <span class="x">*</span> 
+        <span class="lable">食材明细：</span> 
+       </dt> 
+       <dd> 
+        <blockquote class="Left"> 
+         <div> 
+          <input type="text" name="food1" class="zhuliao btn37 J_input" value="主料 (如：猪肉)" /> 
+          <input type="text" name="food2" class="yongliang btn37 J_input" value="用量（如100g）" /> 
+         </div> 
+         <div> 
+          <input type="text" name="food1" class="zhuliao btn37 J_input" value="" /> 
+          <input type="text" name="food2" class="yongliang btn37 J_input" value="" /> 
+          <a href="javascript:;" class="delete J_delete"></a> 
+         </div> 
+         <div class="J_addDiv"> 
+          <input type="text" name="food1" class="zhuliao btn37 J_input" value="" /> 
+          <input type="text" name="food2" class="yongliang btn37 J_input" value="" /> 
+          <a href="javascript:;" class="delete J_delete"></a> 
+         </div> 
+        </blockquote> 
+        <blockquote class="Right"> 
+         <div> 
+          <input type="text" name="food3" class="zhuliao btn37 J_input" value="调料 (如：盐)" /> 
+          <input type="text" name="food4" class="yongliang btn37 J_input" value="用量（如10g）" /> 
+         </div> 
+         <div> 
+          <input type="text" name="food3" class="zhuliao btn37 J_input" value="" /> 
+          <input type="text" name="food4" class="yongliang btn37 J_input" value="" /> 
+          <a href="javascript:;" class="delete J_delete"></a> 
+         </div> 
+         <div class="J_addDiv"> 
+          <input type="text" name="food3" class="zhuliao btn37 J_input" value="" /> 
+          <input type="text" name="food4" class="yongliang btn37 J_input" value="" /> 
+          <a href="javascript:;" class="delete J_delete"></a> 
+         </div> 
+        </blockquote> 
+       </dd> 
+      </dl> 
+      <dl class="step"> 
+       <dt> 
+        <span class="x">*</span> 
+        <span class="lable">做法步骤：</span> 
+       </dt> 
+       <dd> 
+			<!-- 步骤开始 -->
+        <div id="dragsort" data-listidx="0">  
+			<div style="float: left;">
+				<div><input type="file" name="file" id="file" style="width: 200px;"></input></div>
+				<div style='width:200px;height:200px;border: 1px solid #ccc;margin:10px 15px 10px 0;' onclick = "checkPic()" id='result'>
+				<center  style='line-height: 200px;font-size: 13px'>点击上传步骤图</center>
+				</div>
+			</div>           
+			<div><textarea style='width:318px;height:180px;border: 1px solid #ccc;float: left;margin:32px 15px 10px 0;padding: 10px'>#######</textarea>
+			</div>       
+        </div> 
+			<!-- 步骤结束 -->
+
+
+
+
+       </dd> 
+      </dl> 
+      <dl class="tips"> 
+       <dt> 
+        <span class="lable">小窍门：</span> 
+       </dt> 
+       <dd>
+        <!-- <textarea class="" name="xqm" id="xqm"></textarea> -->
+        <textarea class="textArea J_input" name="xqm" style="width: 498px;height: 86px; padding: 20px 20px 20px 35px;"></textarea>
+       </dd> 
+      </dl> 
+      <dl class="selectcheckBox"> 
+       <dt>
+        &nbsp; 
+       </dt> 
+       <dd> 
+		 <button  style="width: 100px;line-height: 30px;">发布菜谱</button>
+       </dd> 
+      </dl> 
+      </form>
+     </div> 
+     <!-- 内容结束 --> 
+    </div> 
+    <!-- 右侧结束 --> 
+   </div> 
+  </div> 
+  <include file="public/member_footer" /> 
+  <!-- 引用全站js --> 
+ <!--  <script type="text/javascript" src="__PUBLIC__/Home/js/all.js"></script>  -->
+<!--   <script type="text/javascript" src="__PUBLIC__/Home/js/common.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.dragsort.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Home/js/msc-tools-multiselect.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Home/js/msc-ui-select.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Home/js/swfupload.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Home/js/new_recipeadd2.js"></script>  -->
+ <!--  <script type="text/javascript">
+ jQuery(function($){
+ 				
+ 				jQuery("input[name='level'][value=0]").click();
+ 				jQuery("input[name='cuisine'][value=0]").click();
+ 				jQuery("input[name='technics'][value=]").click();
+ 				jQuery("input[name='during'][value=1]").click();
+ 								jQuery("input[name='copyright']").attr("checked",true);
+ 												jQuery("input[name='verycd']").attr("checked",false);
+ 					jQuery("#level,#cuisine,#technics,#during,#cookers,#J_level,#J_cuisine,#J_technics,#J_during").remove();
+ 
+ pm_data = getdata();
+ }); 
+ </script>  -->
+  <!-- <script>
+  
+  $("li.top_bar_more").hoverDelay(function(){
+  $("li.top_bar_more div").show();
+  },function(){
+  $("li.top_bar_more div").hide();
+  },200,200);
+  
+  var _hmt = _hmt || [];
+  (function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fb9cd9dcdda23cee0c7357db9be24acb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+  })();
+  </script> 
+  <script>
+  (function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+  </script>  -->
+
+<!-- 图片上传 -->
+
+ </body>
+ <script type="text/javascript">  
+var result=document.getElementById("result");  
+var file=document.getElementById("file");  
+  
+//判断浏览器是否支持FileReader接口  
+if(typeof FileReader == 'undefined'){  
+    result.InnerHTML="<p>你的浏览器不支持FileReader接口！</p>";  
+    //使选择控件不可操作  
+    file.setAttribute("disabled","disabled");  
+}  
+
+function checkPic(){
+      //检验是否为图像文件  
+    var file = document.getElementById("file").files[0];  
+    if(!/image\/\w+/.test(file.type)){  
+        alert("看清楚，这个需要图片！");  
+        return false;  
+    }  
+    var reader = new FileReader();  
+    //将文件以Data URL形式读入页面  
+    reader.readAsDataURL(file);  
+    reader.onload=function(e){  
+        var result=document.getElementById("result");  
+        //显示文件  
+        result.innerHTML='<img src="' + this.result +'" alt="" width="200" height="200" />';  
+    }  
+}
+</script> 
+</html>

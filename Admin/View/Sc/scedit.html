@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>美食天下 管理中心 - 食材编辑 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="__PUBLIC__/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Admin/css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>
+    <span class="action-span"><a href="{:U('Sc/sccatadd')}">食材分类添加</a></span>
+    <span class="action-span1"><a href="__GROUP__">美食天下 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 食材编辑 </span>
+    <div style="clear:both"></div>
+</h1>
+<div class="form-div">
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>食材名称:</td>
+                <td><input type="text"name ="s_name" value="{$row.s_name}" /></td>
+            </tr>
+            <tr>
+                <td>所属分类:</td>
+                <td>
+                    <select name="parent_sid">
+                        <option value="0">请选择分类</option>
+
+                        <foreach name="sc" item = "s">
+                            <if condition="$s['sid'] eq $row['parent_sid']">
+                                <option value="{$s.sid}" selected>{$s.s_name}</option>
+                            <else/>
+                                <option value="{$s.sid}">{$s.s_name}</option> 
+                            </if>                   
+                        </foreach>   
+                    </select> 
+                </td>
+            </tr>        
+        </table>
+        <input type="hidden" name="sid"value="{$row.sid}" />
+        <input type="submit" value=" 修改 " class="button" />
+    </form>
+</div>
+
+
+    <!-- 分页开始 -->
+        <table id="page-table" cellspacing="0">
+            <tr>
+                <td width="80%">&nbsp;</td>
+                <td align="center" nowrap="true">
+                    {$showPage}
+                </td>
+            </tr>
+        </table>
+    <!-- 分页结束 -->
+    </div>
+</form>
+
+<div id="footer">
+&copy; GPL </div>
+</body>
+</html>

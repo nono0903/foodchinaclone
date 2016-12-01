@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://member.meishichina.com/mycenter/recipe-addnew/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+	<title>上传菜谱-美食天下</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<include file='public/member_top'/>
+<body>
+	<include file='public/header'/>
+				<include file='public/member_header'/>
+
+	
+	<!-- 主框架 -->
+	<div class="wrap">
+		<div class="w clear mod">
+			
+			<div class="mod_left">
+
+				<!-- 
+	个人中心首页左侧菜单;
+	给当前分类的a标签上添加 class="on";
+ -->
+<div class="menu_wrap">
+	<ul>
+		<li>
+		<h2>美食天下</h2>
+		</li>
+		<li>
+		<a class="on" href="http://member.meishichina.com/mycenter/my_recipe_me/">菜谱</a>
+		</li>
+		<li>
+		<a href="http://member.meishichina.com/mycenter/my_blog_list/">日志</a>
+		</li>
+		<li><a href="http://member.meishichina.com/mycenter/my_pai_list/">话题</a></li>
+				<li><a href="http://member.meishichina.com/mycenter/my_collect_me/">菜单</a></li>
+				<li>
+		<h2>珍选</h2>
+		</li>  
+		<!--<li><a  href="http://member.meishichina.com/mycenter/my_quan/">优惠券</a></li> -->
+		<!--<li><a  href="http://member.meishichina.com/mycenter/my_quan/shai/1/9855766/">优惠券</a></li>-->
+		<li><a href="http://member.meishichina.com/mycenter/my_try/">免费试用</a></li>
+		<li><a href="http://member.meishichina.com/mycenter/my_lottery/">免费抽奖</a></li>
+		<!--		<li>
+			<h2>先食鲜</h2>
+		</li>
+		<li><a href="http://member.meishichina.com/mycenter/my_wish_me/">心愿单</a></li>-->
+		<!-- <li><a href="#">美食天下行</a></li> -->
+	</ul>
+</div>
+<!-- 左侧分类导航结束 -->
+
+
+			</div>
+			
+			<!-- 右侧 -->
+			<div class="mod_right">
+
+				<div class="mod_location">
+					当前位置：<a href="http://member.meishichina.com/mycenter/recipe-addnew/#">会员中心</a> &gt; <a href="http://member.meishichina.com/mycenter/recipe-addnew/#">菜谱管理</a> &gt; <span>发布新菜谱</span>
+				</div>
+
+				<div class="ui_title mt20">
+					<div class="ui_title_wrap">
+						<a href="http://member.meishichina.com/meishi2.php?ac=mycenter&op=newaddrecipe" class="on">发布新菜谱</a>
+					</div>
+					<div class="ui_title_right">
+						 <a style="position:absolute;top:10px;right:0px;font-size:13px;color:#666" target="_blank" href="http://home.meishichina.com/space-13-do-blog-id-588885.html">如何打造一篇精华菜谱</a>
+					</div>
+				</div>
+
+			<!-- 内容开始 -->
+
+					<div class="content">
+						<h3>展示自己的厨艺，与上千万网友共同分享，还能拿积分哦！所有步骤图齐全会有更好的推荐机会！</h3>
+						<form action="" id="formRecipe" method="post" enctype="multipart/form-data">
+
+						<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+							<dl class="cp_name">
+								<dt>
+									<span class="x">*</span>
+									<span class="lable">菜品名称：</span>
+									
+								</dt>
+								<dd><input type="text" class="btn37 J_Title color_5b" name="recipe_title" id="recipe_title"></dd>
+							</dl>
+							<dl class="cp_name">
+								<dt>
+									<span class="x">*</span>
+									<span class="lable">菜品分类：</span>
+									
+								</dt>
+								<dd>
+								<select  style="width: 150px;height: 22px;border: 1px solid #ccc;"  name="cid" id="cid">
+						            <foreach name="cat" item = "c">
+						              <option value ="{$c['cid']}">{$c['c_name']}</option>
+						            </foreach>
+					        	</select>
+								</dd>
+							</dl>
+							<dl>
+                             	<dt>
+                             	<span class="x">*</span>
+                             	<span class="lable">成品图片：</span>
+                             	</dt>
+                             	<dd><input type='file' name="recipe_img" id="recipe_img"/></dd>
+                             </dl>
+                             <dl>
+                             	<dt>
+                             	<span class="x">*</span>
+                             	<span class="lable">菜品描述：</span>
+                             	</dt>
+                             	<dd><textarea name="recipe_content" id="" cols="40" rows="5"></textarea></dd>
+                             </dl>
+							<p>&nbsp;</p>
+							<dl class="selectcheckBox">
+								<dt>&nbsp;
+								</dt>
+								<dd>
+									<div class="submitdiv">
+										<input type="submit" class="postbtn" id="postbtn" name="submit" value="创建菜谱"/>
+									</div>
+								</dd>
+								
+							</dl>
+							<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+						</form>
+					</div>
+			<!-- 内容结束 -->
+			</div>
+			<!-- 右侧结束 -->
+
+		</div>
+	</div>
+	<include file='public/member_footer'/>
+<!-- 引用全站js -->
+<script type="text/javascript" src="__PUBLIC__/Home/js/all.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/js/common.js"></script>
+<script type="text/javascript">
+msc.user.ready();
+$("#formRecipe").submit(function(){
+if($("#subject").val()==''){
+msc.ui.dialog.error("请输入菜谱名称");
+$("#subject").focus();
+return false;
+}
+});
+</script>
+
+
+<script>
+
+$("li.top_bar_more").hoverDelay(function(){
+$("li.top_bar_more div").show();
+},function(){
+$("li.top_bar_more div").hide();
+},200,200);
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fb9cd9dcdda23cee0c7357db9be24acb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script> 
+
+
+</body></html>

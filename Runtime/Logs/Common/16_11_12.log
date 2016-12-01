@@ -1,0 +1,426 @@
+[ 2016-11-12T09:19:56+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-12T09:31:47+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:31:48+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:31:48+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724625&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:31:49+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724340&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:31:49+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724061&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:31:50+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724808&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:31:50+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724246&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:31:51+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724825&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:31:52+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724842&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:31:53+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724061&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:31:53+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724340&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:31:53+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:31:54+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:32:21+08:00 ] 127.0.0.1 /index.php/user/usercenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:User
+
+[ 2016-11-12T09:33:28+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:33:29+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724625&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:33:29+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:44+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:44+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:44+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:45+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724340&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:45+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724778&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:46+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724061&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:46+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724808&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:47+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724841&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:52+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724841&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:53+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724808&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:54+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724061&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:54+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724340&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:54+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724625&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:39:55+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:40:01+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:40:01+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:40:02+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:40:02+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:48:26+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:48:27+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724625&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:48:28+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:51:01+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T09:51:01+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:06:49+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:06:50+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:06:55+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:06:57+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:06:57+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:06:59+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:07:00+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:07:02+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:07:03+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:07:04+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:07:05+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:07:46+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:07:47+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:10:27+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:35:07+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:35:07+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724625&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:35:08+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724778&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:35:08+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724808&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:35:08+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724825&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:35:11+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724625&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:35:11+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T10:35:23+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T11:03:04+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T14:18:16+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-12T15:01:04+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-12T15:04:07+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=feed&op=get_feed_list&page=1&pageSize=15&type=all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T15:04:30+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724841&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T15:04:30+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724842&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T15:04:30+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724061&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-12T15:04:31+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Ajax
+

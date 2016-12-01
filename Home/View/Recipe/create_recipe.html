@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)http://member.meishichina.com/mycenter/recipe-editnew-id-297131/ -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>编辑上传菜谱-美食天下</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<include file='public/member_top'/>
+<script src="__PUBLIC__/Home/js/jquery.js"></script>
+<script src="__PUBLIC__/Home/js/zxxFile.js"></script>
+<link rel="stylesheet" href="__PUBLIC__/Home/css/step.css" type="text/css" />
+<style type="text/css">
+	  input,img{vertical-align:middle;}
+</style>
+</head>
+<body>
+	<include file='public/header'/>
+	<include file='public/member_header'/>
+	<!-- 主框架 -->
+	<div class="wrap">
+		<div class="w clear mod">
+			
+			<div class="mod_left">
+				<!-- 
+	个人中心首页左侧菜单;
+	给当前分类的a标签上添加 class="on";
+ -->
+<div class="menu_wrap">
+	<ul>
+		<li>
+		<h2>美食天下</h2>
+		</li>
+		<li>
+		<a class="on" href="http://member.meishichina.com/mycenter/my_recipe_me/">菜谱</a>
+		</li>
+		<li>
+		<a href="http://member.meishichina.com/mycenter/my_blog_list/">日志</a>
+		</li>
+		<li><a href="http://member.meishichina.com/mycenter/my_pai_list/">话题</a></li>
+				<li><a href="http://member.meishichina.com/mycenter/my_collect_me/">菜单</a></li>
+				<li>
+		<h2>珍选</h2>
+		</li>  
+		<!--<li><a  href="http://member.meishichina.com/mycenter/my_quan/">优惠券</a></li> -->
+		<!--<li><a  href="http://member.meishichina.com/mycenter/my_quan/shai/1/9855766/">优惠券</a></li>-->
+		<li><a href="http://member.meishichina.com/mycenter/my_try/">免费试用</a></li>
+		<li><a href="http://member.meishichina.com/mycenter/my_lottery/">免费抽奖</a></li>
+		<!--		<li>
+			<h2>先食鲜</h2>
+		</li>
+		<li><a href="http://member.meishichina.com/mycenter/my_wish_me/">心愿单</a></li>-->
+		<!-- <li><a href="#">美食天下行</a></li> -->
+	</ul>
+</div>
+<!-- 左侧分类导航结束 -->
+			</div>
+			
+			<!-- 右侧 -->
+			<div class="mod_right">
+
+				<div class="mod_location">
+					当前位置：<a href="http://member.meishichina.com/mycenter/recipe-editnew-id-297131/#">会员中心</a> &gt; <a href="http://member.meishichina.com/mycenter/recipe-editnew-id-297131/#">菜谱管理</a> &gt; <span>编辑菜谱</span>
+				</div>
+				<div class="ui_title mt20">
+					<div class="ui_title_wrap">
+						<a href="http://member.meishichina.com/mycenter/my_recipe_me/" class="on">编辑菜谱</a>
+					</div>
+					<div class="ui_title_right">
+						 <a style="position:absolute;top:10px;right:0px;font-size:13px;color:#666" target="_blank" href="http://home.meishich+ina.com/space-13-do-blog-id-588885.html">如何打造一篇精华菜谱</a>
+					</div>
+				</div>
+
+			<!-- 内容开始 -->
+						<div class="content">
+						<h3>展示自己的厨艺，与上千万网友共同分享，还能拿积分哦！所有步骤图齐全会有更好的推荐机会！</h3>
+						<form action="" id="formRecipe" method="post">
+
+						<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+							<dl class="cp_name">
+								<dt>
+									<span class="x">*</span>
+									<span class="lable">菜品名称：</span>
+									
+								</dt>
+								<dd><input type="text" class="btn37 J_Title color_5b" name="recipe_title" id="recipe_title" value="{$reciperow['recipe_title']}" readonly></dd>
+							</dl>
+							<dl class="cp_name">
+								<dt>
+									<span class="x">*</span>
+									<span class="lable">菜品分类：</span>
+									
+								</dt>
+								<dd>
+								<select  style="width: 150px;height: 22px;border: 1px solid #ccc;"  name="cid" id="cid" onchange='reset(this)'>
+						            <foreach name="cat" item = "c">
+						              <option value ="{$c['cid']}">{$c['c_name']}</option>
+						            </foreach>
+					        	</select>
+								</dd>
+							</dl>
+							<dl class="ingredient">
+								<dt>
+									<span class="x">*</span>
+									<span class="lable">食材明细：</span>
+								</dt>
+								<dd>
+									<div style="width: 270px;float:left;" id='div1'>
+											<div id='d_1'>
+											<input type="text" name="food1" placeholder="食材(如:猪肉)" id='sc1'/>
+											<input type="text" name="food2" placeholder="用量(如:100g）" id='yl1'/>
+											</div><br/>
+									</div>
+									
+							<a href='javascript:;' id='a'>+</a>
+								</dd>
+							</dl>
+							<dl>
+							<dt>
+							<span class="x">*</span>
+							<span class="lable">上传图片步骤图：点击上传文件支持多图上传:</span>
+							</dt>
+							<dd>
+							<div>
+							 <form id="uploadForm" action="upload.php" method="post" enctype="multipart/form-data">
+				                    <div class="upload_box">
+				                        <div class="upload_main">
+				                            <div class="upload_choose">
+				                          <input onclick="javascript:void(0);"id="fileImage" type="file" size="30" name="fileselect[]" multiple />
+				                         <!--  <span id="fileDragArea" class="upload_drag_area">将图片拖到此处进行上传,可连续拖拽进行批量上传</span> -->
+				                            </div>
+				                            <div id="preview" class="upload_preview">
+				                            </div>
+				                        </div>
+				                       <!--  <div class="upload_submit">
+				                           <button type="button" id="fileSubmit" class="upload_submit_btn">确认上传图片</button>
+				                       </div>
+				                         <div id="uploadInf" class="upload_inf"></div> -->
+				                    </div>
+				              </form>
+							</div>
+							</dd>
+							</dl>
+							<dl class="tips">
+								<dt>
+									<span class="lable">小窍门：</span>
+									
+								</dt>
+								<dd><textarea class="area543 color_5b" name="tips" id="tips"></textarea></dd>
+							</dl>
+							<dl class="selectcheckBox">
+								<dt>&nbsp;
+									
+								</dt>
+								<dd>
+								<p><label><input type="checkbox" name="copyright" value="1" checked="checked">原创作品（您自己的原创作品）</label></p>
+									<div class="submitdiv">
+									
+									<input type="hidden" id="rid" value="{$Think.get.rid}">
+
+										<input class="postbtn" id="postbtn" type="button" value="发布菜谱">
+										<input class="savebtn" id="savebtn" type="button" value="存为草稿">
+										
+								<span id="save_tip"></span>
+									</div>
+								
+								</dd>
+								
+							</dl>
+
+							
+						 
+					</div>
+
+
+			<!-- 内容结束 -->
+			</div>
+			<!-- 右侧结束 -->
+		</div>
+	</div>
+<include file='public/member_footer'/>
+</body>
+<script>
+function reset(ele){
+ var oChildren = ele.childNodes;
+ var value = ele.getAttribute('value');
+ for(var i=0;i<oChildren.length;i++){
+  if(oChildren[i].tagName=='OPTION'){
+   if(oChildren[i].value==value){
+    oChildren[i].selected = true;
+   }
+  }
+ }
+}
+$("#a").click(function(){
+// $("#div1")[0].innerHTML += '123';
+ var d_1 = $("#div1 div:last").attr('id');
+ /*用于判断内容是否为空   不为空再添加Input */
+	var index = d_1.substr(d_1.indexOf('_')+1);
+  
+    if(($("#sc"+index).val() != "") && ($("#yl"+index).val() != "")){
+      index++ ;
+ 	    $("#div1").append("<div id='d_"+index+"'><input type='text' name='food1' placeholder='食材(如:猪肉)' id='sc"
+ 		+index
+ 		+"'><input type='text' name='food2' placeholder='用量(如:100g)' id='yl"
+ 		+index
+ 		+"'></div><br>");	
+
+}
+});
+$("#postbtn").click(function(){
+	var sc = [];
+	var yl = [];
+	$('input[name=food1]').each(function(){
+		if($(this).val() != ""){
+			sc.push($(this).val());
+		}
+	
+});
+	$('input[name=food2]').each(function(){
+		if($(this).val() != ""){
+			yl.push($(this).val());
+		}
+	
+});
+
+	/*获取图片*/
+	var imgData = [];
+	$('img[id^=uploadImage_]').each(function(){
+	  imgData.push($(this).attr('src'));
+  });
+	var txtData = [];
+	$("textarea[id^=txta_]").each(function(){
+		txtData.push($(this).attr('value'));
+	});
+	var data = {
+		'sc' : sc,
+		'yl' : yl,
+		'rid':$('#rid').val(),
+		'img':imgData,
+		'txt':txtData,
+		'tips':$('#tips').val(),
+	}
+	var url = "http://food.com/index.php/home/recipe/create_recipe";
+	$.post(url,data,function(msg){
+		alert(msg);
+	});
+});
+
+var params = {
+	fileInput: $("#fileImage").get(0),
+	dragDrop: $("#fileDragArea").get(0),
+	upButton: $("#fileSubmit").get(0),
+	url: $("#uploadForm").attr("action"),
+	filter: function(files) {
+		var arrFiles = [];
+		for (var i = 0, file; file = files[i]; i++) {
+			if (file.type.indexOf("image") == 0) {
+				if (file.size >= 512000) {
+					alert('您这张"'+ file.name +'"图片大小过大，应小于500k');	
+				} else {
+					arrFiles.push(file);	
+				}			
+			} else {
+				alert('文件"' + file.name + '"不是图片。');	
+			}
+		}
+		return arrFiles;
+	},
+	onSelect: function(files) {
+		var html = '', i = 0;
+		$("#preview").html('<div class="upload_loading"></div>');
+		var funAppendImage = function() {
+			file = files[i];
+			if (file) {
+				var reader = new FileReader();
+				reader.onload = function(e) {
+					html = html + '<div id="uploadList_'+ i +'" class="upload_append_list"><div class="img"><strong>' + 
+					'<img id="uploadImage_' + i + '" src="' + e.target.result + '" class="upload_image" width="210" height="210"/></div>'+ 
+						'<span id="uploadProgress_' + i + '" class="upload_progress"></span>'+
+					'<div class="nbsp"></div><div class ="t"><textarea cols="30" rows="6" class="txt" placeholder="点击此处添加菜品步骤描述" id="txta_'+i+'"></textarea></div><a href="javascript:;" class="upload_delete" title="删除"	data-index="'+ i +'">'+
+				'删除图片</a></div><br/>';
+					
+					i++;
+
+		
+					funAppendImage();
+				}
+				reader.readAsDataURL(file);
+			} else {
+				$("#preview").html(html);
+				if (html) {
+					//删除方法
+					$(".upload_delete").click(function() {
+						ZXXFILE.funDeleteFile(files[parseInt($(this).attr("data-index"))]);
+						return false;	
+					});
+					//提交按钮显示
+					// $("#fileSubmit").show();	
+				} /*else {
+					//提交按钮隐藏
+					$("#fileSubmit").hide();	
+				}*/
+			}
+		};
+		funAppendImage();		
+	},
+	onDelete: function(file) {
+		$("#uploadList_" + file.index).fadeOut();
+	},
+	onDragOver: function() {
+		$(this).addClass("upload_drag_hover");
+	},
+	onDragLeave: function() {
+		$(this).removeClass("upload_drag_hover");
+	},
+	// onProgress: function(file, loaded, total) {
+	// 	var eleProgress = $("#uploadProgress_" + file.index), percent = (loaded / total * 100).toFixed(2) + '%';
+	// 	eleProgress.show().html(percent);
+	// },
+	//"<p>上传成功，图片地址是：" + response + "</p>"
+	/*onSuccess: function(file, response) {
+		$("#uploadInf").append("<p>上传成功</p>");
+	},
+	onFailure: function(file) {
+		$("#uploadInf").append("<p>图片" + file.name + "上传失败！</p>");	
+		$("#uploadImage_" + file.index).css("opacity", 0.2);
+	},
+	onComplete: function() {
+		//提交按钮隐藏
+		$("#fileSubmit").hide();
+		//file控件value置空
+		$("#fileImage").val("");
+		$("#uploadInf").append("<p>当前图片全部上传完毕，可继续添加上传。</p>");
+	}*/
+};
+ZXXFILE = $.extend(ZXXFILE, params);
+ZXXFILE.init();
+
+
+</script>
+</html>

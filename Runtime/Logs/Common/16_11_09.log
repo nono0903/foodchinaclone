@@ -1,0 +1,66 @@
+[ 2016-11-09T09:17:39+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-09T14:35:14+08:00 ] 127.0.0.1 /tpfood/meishi/food/Public/admin/img/icon_search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Tpfood
+
+[ 2016-11-09T16:06:14+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-09T16:07:11+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724625&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-09T16:07:12+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724808&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-09T16:07:12+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724246&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-09T16:07:13+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724808&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-09T16:07:14+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724778&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-09T16:07:14+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724625&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-09T16:07:15+08:00 ] 127.0.0.1 /ajax/ajax.php?ac=commondata&op=get_common_data_num&id=724839&type=pai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ajax
+
+[ 2016-11-09T23:32:49+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://member.meishichina.com/mycenter/pai-add/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+	<title>上传话题-美食天下</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<include file='public/member_top'/>
+<body>
+	<include file='public/header'/>
+			<include file='public/member_header'/>
+	
+	<!-- 主框架 -->
+	<div class="wrap">
+		<div class="w clear mod">
+			
+			<div class="mod_left">
+
+				<!-- 
+	个人中心首页左侧菜单;
+	给当前分类的a标签上添加 class="on";
+ -->
+<div class="menu_wrap">
+	<ul>
+		<li>
+		<h2>美食天下</h2>
+		</li>
+		<li>
+		<a href="{:U('Home/recipe/index')}">菜谱</a>
+		</li>
+		<li>
+		<a href="#">日志</a>
+		</li>
+		<li>
+		<a href="{:U('Home/huati/index')}">话题</a>
+		</li>
+		<li>
+		<a href="">菜单</a>
+		</li>
+		<li>
+		<h2>珍选</h2>
+		</li>  
+		<!--<li><a  href="http://member.meishichina.com/mycenter/my_quan/">优惠券</a></li> -->
+		<!--<li><a  href="http://member.meishichina.com/mycenter/my_quan/shai/1/9855766/">优惠券</a></li>-->
+		<li><a href="">免费试用</a></li>
+		<li><a href="">免费抽奖</a></li>
+		<!--		<li>
+			<h2>先食鲜</h2>
+		</li>
+		<li><a href="http://member.meishichina.com/mycenter/my_wish_me/">心愿单</a></li>-->
+		<!-- <li><a href="#">美食天下行</a></li> -->
+	</ul>
+</div>
+<!-- 左侧分类导航结束 -->
+
+
+			</div>
+			
+			<!-- 右侧 -->
+			<div class="mod_right">
+
+				<div class="mod_location">
+					当前位置：<a href="{:U('Home/user/usercenter')}">会员中心</a> &gt; <a href="{:U('Home/huati/index')}">话题 </a> &gt; <span>发布话题</span>
+				</div>
+
+				<div class="ui_title mt20">
+					<div class="ui_title_wrap">
+						<a href="#" class="on">发布话题</a>
+					</div>
+					
+				</div>
+
+<!-- 内容开始 -->
+      <div class="content">
+        <h3 style="display:none">爱生活，享话题，美好生活等待你的发现。更可 <a target="_blank" href="" style="color:#ba2020">下载美食天下客户端</a> 随时随地发话题。</h3>
+        <form action="" enctype="multipart/form-data" method="post">
+		  <dl class="classid">
+            <dt> <span class="x">*</span> <span class="lable">分类：</span> </dt>
+            <dd style="padding:8px 0 0;">
+			<label><input type="radio" name="classify" value="1" checked="">&nbsp;美食随手拍</label>&nbsp;&nbsp;
+			<label><input type="radio" name="classify" value="2">&nbsp;烘焙圈</label>&nbsp;&nbsp;
+			<label><input type="radio" name="classify" value="3">&nbsp;妈妈派</label>&nbsp;&nbsp;
+              <label><input type="radio" name="classify" value="4">&nbsp;饮食健康</label>&nbsp;&nbsp;
+			  <label><input type="radio" name="classify" value="5">&nbsp;厨艺交流</label>&nbsp;&nbsp;
+			  <label><input type="radio" name="classify" value="6">&nbsp;最美之物</label>&nbsp;&nbsp;
+			  <label><input type="radio" name="classify" value="7">&nbsp;美好时光</label>&nbsp;&nbsp;
+			  <label><input type="radio" name="classify" value="99">&nbsp;帮助与反馈</label>
+            </dd>
+          </dl>
+          <dl class="uploadImagel">
+            <dt> <span class="x">*</span> <span class="lable">话题图片：</span> </dt>
+            <dd>
+			<div style="padding:6px 0px;color:#ba2020;">最多上传9张，第一张为封面图</div>
+			<ul id="fileup">
+				<li>
+              		<input type="file" name="pic[]" id=""class="btn37 color_5b">
+				</li>
+			</ul>
+				<img src="__PUBLIC__/Home/images/jia.png" alt="" class="jia">
+				<img src="__PUBLIC__/Home/images/ios.jpg" alt="" id="jian">
+              
+             
+            </dd>
+          </dl>
+		  <dl class="cp_title">
+            <dt><span class="lable">话题标题：</span> </dt>
+            <dd>
+				<input name="title" value="" style="width:546px" class="btn37 color_5b" type="text">
+            </dd>
+          </dl>
+
+		  <dl class="cp_name">
+            <dt> <span class="x">*</span> <span class="lable">话题描述：</span> </dt>
+            <dd>
+              <textarea class="textAreaMain J_input J_swfDisc" name="message" placeholder="写下你的想法吧!"></textarea>
+            </dd>
+          </dl>
+
+          <!--<dl class="addElem" >
+            <dt> <span class="lable">添加标签：</span> </dt>
+            <dd>
+              <div class="addElem_box J_addElem_box"> <span class="li1" value="15">烘焙</span> <span class="li1" value="5">一人食</span> <span class="li1" value="6">家庭聚会</span> <span class="li1" value="8">二人世界</span> <span class="li1" value="23">小吃</span> <span class="li1" value="13">创意菜</span> <span class="li1" value="9">想吃</span> <span class="li1" value="7">儿童餐</span> <span class="li1" value="22">朋友聚会</span> <span class="li1" value="19">西餐</span> <span class="li1" value="12">川菜</span> <span class="li1" value="20">粤菜</span> <span class="li1" value="17">日料</span> <span class="li1" value="18">烧烤</span> <span class="li1" value="14">韩料</span> <span class="li1" value="11">冰淇凌</span> <span class="li1" value="16">巧克力</span> <span class="li1" value="21">自助餐 </span> <span class="li1" value="10">想买</span> </div>
+              <a href="javascript:;" class="more" data-statu="0" style="display:none">更多</a>
+              <div class="checkBox"> <span class="gay">已选标签：</span>
+                <p class="J_eleBox"> </p>
+              </div>
+              <input type="hidden" class="J_addElem_box_value" name="pai_tips" value="">
+            </dd>
+          </dl>
+		  -->
+		  <dl class="selectcheckBox">                                                                                                                                                       
+			  <dt>验证码：</dt>
+			  <dd>
+			  		<input type="text" name="yzm" id="yzm"><img src="{:U('yzm')}" alt="点击刷新"id="scyzm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="ref"style = "color:red"></span>
+		 	  </dd>
+		  </dl>
+		  	      <dl>
+			<dt>参加活动：</dt>
+			<dd style="padding:8px 0 0;"><label><input type="radio" name="eventid" value="0" checked="">&nbsp;不参加</label></dd>
+									<dt>　</dt>
+			<dd style="padding:8px 0 0;"><label><input type="radio" name="eventid" value="354">&nbsp;参加“魔法立方料理，造型大赛”</label></dd>
+			
+		  </dl>	  
+		  		  <!--<label><strong style="font-size:14px;">菜谱活动预告：</strong><a href="http://home.meishichina.com/minisite/bocui2016/" target="_blank" style="color:red;font-size:14px;">【柏翠第六届烘焙大赛邀请函】柏翠第六届烘焙大赛开赛啦！10月9日全面上线！赶快提前准备你的烘焙作品吧，万元现金大奖等你拿！（海选赛作品要求不限，只要是自己原创的美食烘焙作品均可）</strong></a></label>-->
+
+	  <dl class="selectcheckBox">
+		  <dt>&nbsp; </dt>
+		  <dd>
+
+		  <div class="submitdiv">
+
+			  
+                <input class="postbtn" id="postsub" name="submit" type="submit" value="发布话题">
+              </div>
+            </dd>
+          </dl>
+        </form>
+      </div>
+      <!-- 内容结束 -->
+</body>
+
+					
+<script src="__PUBLIC__/Home/js/jquery.js"></script>
+<script>
+	$('.jia').click(function(){
+		$('#fileup').append('<li><input type="file" name="pic[]" class="btn37 color_5b"></li>');	
+	});
+
+	$('#jian').click(function(){
+		$('#fileup li:last-of-type').remove();
+	});
+
+
+
+// 点击刷新验证图片
+	$('#scyzm').click(function(){
+		$('#scyzm')[0].src = '{:U('yzm')}'
+	});
+
+// 自动验证验证码
+	$('#yzm').blur(function(){
+		var val = this.value;
+		
+		 $.get('{:U('checkyzm')}',{
+		 	'yzm': val
+		 },function(data){
+
+		 	if(data==1){
+		 		$('#ref').html('<img src="__PUBLIC__/Home/images/succ.gif" alt="通过验证">');
+		 		jqyz='ok';
+
+		 	}else{
+		 		$('#ref').html('验证码错误');
+		 		jqyz='error';
+		 	}
+		 },false);
+	});
+
+	$('form').submit(function(){
+		if(jqyz=='error'){
+			alert('验证码错误!');
+			return false;
+		}
+	});
+	
+
+</script>
+
+
+			</div>
+			<!-- 右侧结束 -->
+
+		</div>
+	</div>
+
+<include file='public/footer'/>
+
+</html>

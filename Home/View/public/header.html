@@ -1,0 +1,28 @@
+﻿<!-- top导航 -->
+  <div class="top-bar" id="J_top_bar"> 
+   <ul class="bar-left left"> 
+    <li><a title="美食天下" href="{:U('Home/Index/index')}" target="_blank" class="top_bar_logo"><i>美食天下</i>首页</a></li> 
+    <li> <a title="菜谱" href="{:U('Recipe/index')}" target="_blank">菜谱</a></li> 
+    <li> <a title="食材" href="{:U('Sc/index')}" target="_blank">食材</a></li> 
+    <li> <a title="健康" href="{:U('Health/index')}" target="_blank">健康</a></li> 
+    <li> <a title="专题" href="{:U('Zhuanti/index')}" target="_blank">专题</a></li> 
+    <li> <a title="社区" href="{:U('Shequ/index')}" target="_blank">社区</a></li> 
+    <li> <a title="话题" href="{:U('Huati/index')}" target="_blank">话题</a></li> 
+    <li> <a title="活动" href="{:U('Active/index')}" target="_blank">活动</a></li>
+
+    <if  condition="chkcookie() eq 0 ">
+    <li style='margin-left: 800px;'>
+    <!-- if判断 -->
+        <a href="{:U('Home/User/login')}">登录</a>
+    <!-- 欢迎您 <a >{$Think.cookie.name}</a> -->
+    </li>
+    <li><a href="{:U('Home/User/register')}">注册</a></li> 
+    <else />
+        <li style='margin-left: 700px;'>
+            {$Think.cookie.user_name} |
+            <li><a href="{:U('Home/User/logout')}">退出登录</a></li> 
+        </li>
+    </if>
+    <!-- <li><a href='#'>退出</a></li>  -->
+   </ul>
+  </div>

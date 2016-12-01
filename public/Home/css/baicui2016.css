@@ -1,0 +1,107 @@
+.sliderh{position:relative;clear:both;overflow:hidden;margin-top:40px;width:100%;height:887px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/baicui_01.jpg?v=1) no-repeat center}
+.bc_nav{background:#E70012;width:100%;padding:30px 0}
+.bc_nav ul{display:block;width:1170px;margin:auto}
+.bc_nav ul li{float:left;width:163px;height:60px;text-align:center;margin:15px;border:1px solid #fff;position:relative}
+.bc_nav ul li .hot{position:absolute;display:block;top:-7px;right:10px;width:34px;height:21px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/ing.png) no-repeat center}
+.bc_nav ul li a{display:block;height:100%;color:#fff;font-size:18px;line-height:60px;font-weight:700;text-decoration:none}
+.bc_nav ul li a.a2{line-height:1em;height:auto;padding:12px 0}
+.bc_nav ul li a.a2 span{font-size:14px;font-weight:100}
+.bc_nav ul li.on a{background:#fff;color:#E70012}
+.bc_img{margin:auto;overflow:hidden;position:relative;width:1170px}
+.bc_img img{display:block;margin:auto}
+.bc4{width:100%;height:419px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/baicui_04.jpg?v=3) no-repeat center}
+.bc6{width:100%;height:687px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/baicui_13.jpg?v=2) no-repeat center}
+.bc_list{margin:auto;overflow:hidden;position:relative;width:1170px}
+.bc_list ul{display:block;width:270px;float:left;margin:0 30px 0 0}
+.bc_list ul:last-child{margin:0}
+.bc_list ul li{width:270px;margin:0 30px 30px 0;float:left}
+.bc_list ul li div{position:relative}
+.bc_list ul li a.u{background:#f2f2f2 none repeat scroll 0 0;border-radius:50%;display:block;height:70px;right:10px;position:absolute;bottom:-35px;width:70px;z-index:2}
+.bc_list ul li a.u img{background:#f2f2f2 url(http://static.meishichina.com/v6/img/loading-32-32.gif) no-repeat scroll center center;border-radius:50%}
+.bc_list ul li div.f{border-bottom:1px solid #EFEFEF;border-left:1px solid #EFEFEF;border-right:1px solid #EFEFEF;height:70px;padding:10px 10px 0;width:248px}
+.bc_list ul li div.ff{height:230px}
+.bc_list ul li div.ff p{font-size:14px;color:#666;padding:5px 0 15px;}
+.bc_list ul li div.ff a{text-decoration: none;}
+.bc_list ul li a.at{font-weight:700;font-size:16px;display:block;width:auto;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bc_list ul li a.au{font-size:14px;display:inline-block;color:#999;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bc_list ul li a.f1{line-height: 20px;text-decoration: none;padding:10px;position:absolute;bottom:0;right:0;color: #e70012;}
+.bc_list ul li a.f2{padding:10px 5px;position:absolute;bottom:0;right:30px}
+.bc_list ul li a i{float:left;display:block;width:20px;height:20px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/icon.png) no-repeat}
+.bc_list ul li a.f1 i{background-position:-20px 1px}
+.bc_list ul li a.f2 i{background-position:0 0}
+.bc_list ul li a.f2.on i,.bc_list ul li a.f2:hover i{background-position:-40px 0}
+.bc_list ul li a.f1.on i,.bc_list ul li a.f1:hover i{background-position:-60px 1px}
+.bc_list ul h3{text-align:center;font-size:20px;text-align:center;padding:10px;color:#e70012}
+.bc_list .no_data{text-align:center;font-size:20px;text-align:center;padding:10px;color:#999}
+a.more{margin:20px auto;height:55px;line-height:55px;color:#fff;background:#E70012;font-size:18px;font-weight:700;display:block;width:230px;text-align:center;text-decoration:none;box-shadow:2px 3px 8px #fa92a6}
+.bc_nav2{margin:0 auto 30px;width:595px}
+.bc_nav2 a{text-decoration:none;width:118px;font-size:14px;border:1px solid #B5B5B5;height:28px;line-height:28px;float:left;text-align:center;margin-right:-1px;color:#B5B5B5}
+.bc_nav2 a.on{border:1px solid #E70012;color:#E70012}
+.bc_rule{width:1170px;margin:auto}
+.bc_rule_a{width:100%;background:#FCF8EF;margin:80px 0 0}
+.bc_rule_a h3{width:100%;background:#E70012;font-size:24px;color:#fff;line-height:50px;height:50px;text-align:center;box-shadow:2px 3px 8px #fa92a6}
+.bc_rule .line{margin:70px 0 0}
+.bc_rule .line .left{width:300px;float:left;text-align:center}
+.bc_rule .line .left span{background:#333;font-size:18px;display:block;height:40px;line-height:40px;color:#fff;margin:10px auto 5px;width:150px}
+.bc_rule .line .right{width:810px;float:right;line-height:2em;font-size:14px;margin:0 60px 0 0}
+.bc_rule .more{margin:80px auto 40px}
+.bc_show{width:1170px;margin:auto}
+.bc_show_a{width:100%;background:#FCF8EF;margin:80px 0 0}
+.bc_show_a h3{width:100%;background:#E70012;font-size:24px;color:#fff;line-height:50px;height:50px;text-align:center;box-shadow:2px 3px 8px #fa92a6}
+.bc_show_a p{font-size:18px;text-align:center;padding:30px 0}
+
+body{min-width:1170px;}
+
+.hg_d{
+width:438px;
+height:240px;
+padding:30px;
+float:left;
+font-size:14px;
+margin:10px 42px 70px;
+border:1px dashed #333
+}
+.hg_d h4{ 
+font-size:18px;
+color:#e60012
+}
+
+
+.z1{width:100%;height:808px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/zuihou_01.jpg) no-repeat center}
+.z2{width:100%;height:572px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/zuihou_02.jpg) no-repeat center}
+.z3{width:100%;height:786px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/zuihou_03.jpg) no-repeat center}
+.z4{width:100%;height:784px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/zuihou_04.jpg) no-repeat center}
+.z5{width:100%;height:784px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/zuihou_05.jpg) no-repeat center}
+.z6{width:100%;height:789px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/zuihou_06.jpg) no-repeat center}
+.z7{width:100%;height:762px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/zuihou_07.jpg) no-repeat center}
+.z8{width:100%;height:1043px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/zuihou_08.jpg) no-repeat center}
+.z9{width:100%;height:322px;background:url(http://static.meishichina.com/v6/img/event/baicui2016/zuihou_09.jpg) no-repeat center}
+
+
+.order{
+text-align:right;
+width:1170px;
+margin:auto;
+font-size:16px;
+padding:0 5px 15px 0;
+
+}
+.order a{
+color:#333;
+ text-decoration: none;
+}
+.order a:hover, .order a.on{
+color:#e70012;
+}
+
+.b_t{border:1px solid #999;margin:5px 0 0;}
+.b_t td, .b_t th {
+    border: 1px solid #999;
+    border-collapse: collapse;
+    padding:5px 10px;
+}
+.huojiang{width:640px;margin:auto;}
+.huojiang ul{width:120px;float:left;margin:0 20px;text-align:center;font-size:14px;}
+.huojiang ul li{margin:10px 0 15px;}
+.huojiang ul li img{border-radius:50%;margin:0 auto 5px;width:120px;height:120px;}
+.huojiang ul h3{font-size:16px;color:#e70012;font-weight:700}

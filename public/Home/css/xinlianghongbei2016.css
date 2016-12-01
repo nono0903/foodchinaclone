@@ -1,0 +1,61 @@
+body{background:#FFD4DB}
+.footer-area{background:#fff}
+
+.sliderh{position:relative;clear:both;overflow:hidden;margin-top:40px;width:100%;height:350px}
+#sliderh{overflow:hidden;width:auto;height:350px;width:100%;}
+#sliderh ul{display:block;margin:0;padding:0}
+#sliderh li{display:block;overflow:hidden;height:350px;width:100%;}
+#sliderh li{float:left;display:block;overflow:hidden;height:350px}
+#sliderh li h1{display:block;height:100%;width:100%}
+#sliderh li a{display:block;height:100%;width:100%;text-indent:-9999em}
+.sliderh .control{display:none}
+
+.xl{margin:auto;width:990px;position:relative;overflow:hidden;}
+.xl_img{margin:auto;width:990px;position:relative;overflow:hidden}
+.xl_img .imgLoad{background:url(http://static.meishichina.com/v6/img/loading-32-32.gif) no-repeat scroll center 100px;display:block}
+
+
+
+.no_d{text-align:center;font-size:16px;padding:50px 0}
+a.more{width:140px;text-align:center;height:40px;margin:auto;display:block;line-height:40px;color:#F0044C;font-size:18px;border:1px solid #F0044C;border-radius:20px}
+.xl .list{width:900px;margin:auto}
+.xl .list li{float:left;margin:0 12.5px 25px;width:200px;font-size:14px}
+.xl .list li div{position:relative;height:288px}
+.xl .list li div a{display:block;outline:0;text-align:center;text-decoration:none}
+.xl .list li div a:hover{color:#F0044C}
+.xl .list li div span{display:block;overflow:hidden;padding:18px 0 0 0;width:100%;text-overflow:ellipsis;white-space:nowrap;font-size:18px}
+.xl .list li div i{position:absolute;top:0;left:0;display:none;width:198px;height:100%;border:1px solid #F0044C}
+.xl .list li div a:hover i{display:block}
+.xl .list a.u{display:block;position:absolute;border:1px solid #e8e8e8;width:28px;height:28px;border-radius:50%;top:185px;left:85px;background:url(http://static.meishichina.com/v6/img/loading-16-16.gif) no-repeat center center #f2f2f2}
+.xl .list a.u img.imgLoad{width:28px;height:28px;border-radius:50%;background:0}
+.xl .list a.f1{display:block;position:absolute;width:90px;height:24px;bottom:10px;left:55px;background:url(http://static.meishichina.com/v6/img/event/xl/like.png?v=1) no-repeat}
+.xl .list a.f1:hover,.xl .list a.on{background-position:0 -24px}
+
+.zuo{background:url(http://static.meishichina.com/v6/img/event/xl/zuo.jpg);display:block;height:100%;left:0;position:absolute;top:0;width:44px}
+.you{background:url(http://static.meishichina.com/v6/img/event/xl/you.jpg);display:block;height:100%;right:0;position:absolute;top:0;width:44px}
+
+.u1{display: block;
+    left: 144px;
+    position: absolute;
+    top: 715px;
+    width: 796px;}
+.u1 li a{display:block; float:left;width:145px;margin:10px 0;font-size:20px;color: #f0044c}
+
+.u2{
+   display: block;
+    left: 150px;
+    position: absolute;
+    top: 1110px;
+    width: 740px;
+}
+.u2 li a{display:block; float:left;width:175px;margin:10px 0;font-size:20px;color: #f0044c}
+
+
+.u3{
+   display: block;
+    left: 170px;
+    position: absolute;
+    top: 276px;
+    width: 740px;
+}
+.u3 li a{display:block; float:left;width:244px;margin:8px 0;font-size:20px;color: #f0044c}
